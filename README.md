@@ -1,10 +1,10 @@
 ![alt text](/public/Thumbnail.png)
 
-https://www.youtube.com/watch?v=EuOke4wPCXg
 
 ## Overview
 
-Hi 🤙 In this 8 hour video you'll learn how to build a SaaS application for automatically creating POV-style YouTube thumbnails. You'll be able to build along with me from project setup to Vercel deployment.
+A full-stack SaaS application for generating high-quality POV-style thumbnails.  
+Includes image processing, background removal, template selection, cloud storage, and subscription-based usage.
 
 Features:
 🤖 AI Background Removal
@@ -22,7 +22,7 @@ Features:
 Follow these steps to install and set up the project.
 ### Clone the Repository
 ```bash
-git clone https://github.com/Andreaswt/thumbnails.git
+git clone https://github.com/jeetu-89/thumbnail-generator.git
 ```
 
 ### Navigate to the Project Directory
