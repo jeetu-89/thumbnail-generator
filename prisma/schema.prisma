@@ -6,9 +6,13 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
-  url = env("POSTGRES_PRISMA_URL") // uses connection pooling
-  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+    // Keep provider in sync with the DATABASE_URL in your .env.
+    // The project `.env` currently sets DATABASE_URL="file:./db.sqlite" so
+    // use the sqlite provider by default. If you switch DATABASE_URL to a
+    // PostgreSQL connection, change this provider back to "postgresql".
+    provider = "sqlite"
+    url = env("DATABASE_URL")
+    // directUrl is not typically used with SQLite; leave undefined for sqlite
 }
 
 model Post {
