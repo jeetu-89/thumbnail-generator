@@ -10,7 +10,7 @@ datasource db {
     // The project `.env` currently sets DATABASE_URL="file:./db.sqlite" so
     // use the sqlite provider by default. If you switch DATABASE_URL to a
     // PostgreSQL connection, change this provider back to "postgresql".
-    provider = "sqlite"
+    provider = "postgresql"
     url = env("DATABASE_URL")
     // directUrl is not typically used with SQLite; leave undefined for sqlite
 }
