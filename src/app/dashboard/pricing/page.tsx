@@ -27,7 +27,7 @@ const Page = async () => {
           <PricingCard
             priceId={env.STRIPE_100_PACK}
             pricing="$50"
-            credits="100"
+            credits="100" 
           />
         </div>
       </div>
