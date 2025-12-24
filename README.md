@@ -1,5 +1,3 @@
-![alt text](/public/Thumbnail.png)
-
 
 ## Overview
 
